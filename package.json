@@ -1,0 +1,51 @@
+{
+	"name": "vite-react-testing",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"test": "vitest"
+	},
+	"dependencies": {
+		"clsx": "^2.1.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-query": "^3.39.3"
+	},
+	"devDependencies": {
+		"@testing-library/dom": "^9.2.0",
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^14.0.0",
+		"@testing-library/user-event": "^14.2.5",
+		"@types/react": "^18.0.15",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^4.0.0",
+		"autoprefixer": "^10.4.17",
+		"eslint": "^8.0.0",
+		"eslint-config-react-app": "^7.0.1",
+		"jest-test-matrix": "^1.2.0",
+		"jsdom": "^22.0.0",
+		"msw": "^2.1.5",
+		"postcss": "^8.4.33",
+		"prettier": "3.0.0",
+		"prettier-config-a11y": "^1.1.2",
+		"tailwindcss": "^3.4.1",
+		"typescript": "~5.1.3",
+		"vite": "^4.3.9",
+		"vitest": "^0.32.0"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		],
+		"rules": {
+			"react/jsx-no-target-blank": "off"
+		}
+	},
+	"prettier": "prettier-config-a11y"
+}
