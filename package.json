@@ -8,7 +8,8 @@
 		"start": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"test": "vitest"
+		"test": "vitest",
+		"server": "cd server && node index.js"
 	},
 	"dependencies": {
 		"clsx": "^2.1.0",
